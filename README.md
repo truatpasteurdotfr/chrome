@@ -24,9 +24,9 @@ Display issue:
 [1:1:0417/130908:ERROR:browser_main_loop.cc(171)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
 [1:1:0417/130908:ERROR:browser_main_loop.cc(217)] Gtk: cannot open display
 
-please use/adapt the provided scripts
-chrome-in-docker+keep-settings.sh
-chrome-in-docker.sh
+Please use/adapt the provided scripts at https://github.com/truatpasteurdotfr/chrome:
+chrome-in-docker+keep-settings.sh and chrome-in-docker.sh 
 
+Files owned by root:
 2) ~/shared/data (the defined shared storage space) is owned by root :(
 
