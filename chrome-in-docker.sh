@@ -13,5 +13,5 @@ docker run -t \
  -e DISPLAY=$DISPLAY \
  -v /dev/snd:/dev/snd \
  --privileged \
- truhuynh/chrome:centos7
+ truhuynh/chrome
 

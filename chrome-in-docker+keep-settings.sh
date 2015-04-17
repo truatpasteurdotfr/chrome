@@ -14,5 +14,5 @@ docker run -t \
  -v /dev/snd:/dev/snd \
  -v ~/shared/data:/data \
  --privileged \
- truhuynh/chrome:centos7
+ truhuynh/chrome
 
