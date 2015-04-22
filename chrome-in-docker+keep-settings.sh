@@ -3,7 +3,7 @@ XSOCK=/tmp/.X11-unix
 XAUTH=`mktemp`
 xauth nlist ${DISPLAY}| sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
 
-docker run -t \
+docker run --rm -t \
     --net host \
     --cpuset 0 \
     --memory 512mb \
@@ -14,5 +14,5 @@ docker run -t \
  -v /dev/snd:/dev/snd \
  -v ~/shared/data:/data \
  --privileged \
- truhuynh/chrome
+ truhuynh/chrome:centos7
 
